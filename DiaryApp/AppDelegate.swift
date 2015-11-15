@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  DiaryApp
 //
-//  Created by Kanaoko Sei on 2015/11/14.
-//  Copyright © 2015年 Kanaoko Sei. All rights reserved.
+//  Created by kana on 2015/11/04.
+//  Copyright © 2015年 kana. All rights reserved.
 //
 
 import UIKit
@@ -12,10 +12,13 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let applicationkey = "YOUR_APPLICATIONKEY"
+    let clientkey = "YOUR_CLIENTKEY"
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        NCMB.setApplicationKey(applicationkey, clientKey: clientkey)
+        
         return true
     }
 

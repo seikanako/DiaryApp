@@ -1,7 +1,7 @@
 # DiaryApp
 @nifty mobile backendを使用したiOSアプリです。
 
-サンプルで公開されている以下のTodoアプリを参考に作りました。
+以下のサンプルアプリを参考に作りました。
 
 https://github.com/moongift/NCMBiOSTodo
 

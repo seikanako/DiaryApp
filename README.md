@@ -11,3 +11,6 @@ Navigation Controllerを使用し、1ページ目は登録済の日記の一覧�
 
 以下のサンプルアプリを参考に作りました。
 * https://github.com/moongift/NCMBiOSTodo
+
+ブログ記事
+* http://kanapplabo.seesaa.net/article/429764738.html
